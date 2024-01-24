@@ -1,0 +1,62 @@
+.tcontainer{
+    margin-top: 0.3rem;
+    width:8rem;
+    justify-content: space-between;
+    display: flex;
+}
+
+.labeltext{
+    display: inline-block;
+    font-size: 0.6rem;
+}
+
+.toggle-switch {
+    position: relative;
+    width: 28.5px;
+    display: inline-block;
+    text-align: left;
+    bottom:2px;
+}
+.checkbox {
+    display: none;
+}
+.tlabel {
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    border: 0.1rem solid #bbb;
+    border-radius: 15px;
+}
+.inner {
+    display: block;
+    width: 200%;
+    margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+    border: 0 solid #bbb;
+    float: left;
+    width: 50%;
+    height: 12px;
+    padding: 0;
+    line-height: 27px;
+    color: #fff;
+    background-color: #ffffff;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+.switch {
+    display: block;
+    width: 15px;
+    background: rgb(7, 82, 245);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 15px;
+    border: 0 solid #bbb;
+    border-radius: 15px;
+    transition: all 0.3s ease-in 0s;
+}
+
+.checkbox:checked + .tlabel .switch {
+    right: 0px;
+    background: #bbb;
+}
