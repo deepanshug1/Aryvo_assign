@@ -4,9 +4,6 @@ This is my submission for the Aryvo Frontend Task made using React and Typscript
 
 <h2>Website link: https://aryvo.netlify.app/</h2>
 
-<center>
-![image](https://github.com/deepanshug1/Aryvo_assign/assets/95443111/7073a434-0e41-41f9-b94a-9808fed4a099)
-</center>
 
 ## firebase Credentials
 
