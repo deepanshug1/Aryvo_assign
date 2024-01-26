@@ -3,7 +3,6 @@ import Error from "./pages/Error";
 import LoginPage from "./pages/LoginPage";
 import RegisterPage from "./pages/RegisterPage";
 import User from "./pages/User";
-
 function App() {
   return (
     <>
@@ -11,7 +10,6 @@ function App() {
         <Routes>
           <Route path="/" element={<LoginPage />} />
           <Route path="/register" element={<RegisterPage />} />
-          <Route path="/#" element={<LoginPage />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/user" element={<User />} />
           <Route path="*" element={<Error />} />

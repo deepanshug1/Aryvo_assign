@@ -6,18 +6,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 95.6vh;
-    background: url(../assets/i5.jpg) no-repeat;
-    background-size: cover;
-    background-position: center;
+    min-height: 100vh;
+    background-image: linear-gradient(#ffffff, rgb(97, 97, 255));
 }
 
 .wrapper{
     width: 26.25rem;
-    background-color: transparent;
-    border:0.15rem solid #dddddd;
+    background-color: #ddd;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 1);
     backdrop-filter: blur(50px);
-    color: #ffffff;
+    color: #000000;
     border-radius: 0.625rem;
     padding: 1rem 2.5rem;
 }
@@ -37,18 +35,17 @@
 .Linput input{
     width: 100%;
     height: 95%;
-    background: transparent;
     outline: none;
-    border:0.15rem solid #dddddd;
+    border:0.2rem solid rgb(184, 184, 184);
     border-radius: 2.5rem;
     font-size: 1rem;
-    color: #ffffff;
+    color: #000000;
     padding: .3rem 0 0 1rem;
 }
 
 .Linput input::placeholder{
     font-size: 1.2rem;
-    color: #ffffff83;
+    color: #52525283;
     
 }
 
@@ -66,28 +63,19 @@
     margin: -0.5rem 0 1rem 0;
 }
 
-
-.rem-reset #a{
-    text-decoration: none;
-    color: #ffffff;
-}
-
-.rem-reset #a:hover{
-    text-decoration: underline;
-}
-
 .wrapper button{
     width:100%;
     height: 2.8rem;
-    background-color: #dddddd;
+    background-color: #0015ff;
     border: none;
     outline: none;
     border-radius: 2.5rem;
-    box-shadow: 0 0 0.625rem rgba(0,0,0,.1);
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.807);
     cursor: pointer;
-    font-size:  1rem;
-    color: #333;
+    font-size:  1.25rem;
+    color: #ffffff;
     font-weight: 700;
+    margin-top: 2rem;
 }
 
 .wrapper .register{
@@ -97,9 +85,8 @@
 }
 
 .register p #a{
-    color: #ffffff;
+    color: #0015ff;
     text-decoration: none;
-    color: aliceblue;
     font-size: 1.5rem;
     font-weight: 600;
     margin-left: 0.5rem;

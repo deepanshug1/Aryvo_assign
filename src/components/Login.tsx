@@ -62,9 +62,6 @@ function Login() {
             <FaLock className="Lpicon" />
           </div>
 
-          <div className="rem-reset">
-            <a href="#">Forgot password?</a>
-          </div>
           <button onClick={handleSubmission}>Login</button>
           <div className="register">
             <p>

@@ -53,7 +53,7 @@ function Register() {
         <p className="subhead">Signup a driver</p>
         <br />
         <div className="inp">
-          <label htmlFor="i1">Enter Full Name</label>
+          <label htmlFor="i1">Enter Full Name *</label>
           <input
             type="text"
             id="i1"
@@ -74,7 +74,7 @@ function Register() {
           />
         </div>
         <div className="inp">
-          <label htmlFor="i3">Enter Email Address</label>
+          <label htmlFor="i3">Enter Email Address *</label>
           <input
             type="email"
             id="i3"
@@ -114,13 +114,13 @@ function Register() {
           <label htmlFor="i7">
             Commission <div className="qm">?</div>
           </label>
-          <input type="text" id="i7" className="form-inp" />
+          <input type="text" id="i7" className="form-inp" placeholder="%" />
         </div>
         <div className="inp2">
           <label htmlFor="i8">
             Weekly Charge <div className="qm">?</div>
           </label>
-          <input type="text" id="i8" className="form-inp" />
+          <input type="text" id="i8" className="form-inp" placeholder="£" />
         </div>
         <div className="inp2">
           <label htmlFor="i9">Driver Group</label>
@@ -143,7 +143,7 @@ function Register() {
         <div className="detail">Click for manual entry</div>
         <br />
         <div className="inp2">
-          <label htmlFor="i11">DVLA License</label>
+          <label htmlFor="i11">DVLA License *</label>
           <input
             type="text"
             id="i11"
@@ -194,7 +194,12 @@ function Register() {
         <br />
         <div className="inp4">
           <label htmlFor="i15">Registration</label>
-          <input type="text" id="i15" className="form-inp" />
+          <input
+            type="text"
+            id="i15"
+            className="form-inp"
+            defaultValue={"L B 7 0 U L J"}
+          />
         </div>
         <div id="vinf-con">
           <p className="vehicle-inf">Make: Rover</p>
@@ -207,19 +212,39 @@ function Register() {
         <br />
         <div className="inp4">
           <label htmlFor="i16">Model</label>
-          <input type="text" id="i16" className="form-inp" />
+          <input
+            type="text"
+            id="i16"
+            className="form-inp"
+            defaultValue={"F-type"}
+          />
         </div>
         <div className="inp4">
           <label htmlFor="i17">Passengers</label>
-          <input type="text" id="i17" className="form-inp" />
+          <input
+            type="text"
+            id="i17"
+            className="form-inp"
+            defaultValue={"F-type"}
+          />
         </div>
         <div className="inp4">
           <label htmlFor="i18">Ride Type</label>
-          <input type="text" id="i18" className="form-inp" />
+          <input
+            type="text"
+            id="i18"
+            className="form-inp"
+            defaultValue={"F-type"}
+          />
         </div>
         <div className="inp4">
           <label htmlFor="i19">Body Type</label>
-          <input type="text" id="i19" className="form-inp" />
+          <input
+            type="text"
+            id="i19"
+            className="form-inp"
+            defaultValue={"F-type"}
+          />
         </div>
         <br />
         <p className="vex">DVLA MOT: 09 / 10 / 2023</p>
@@ -227,11 +252,21 @@ function Register() {
         <br />
         <div className="inp4">
           <label htmlFor="i20">Plate Number</label>
-          <input type="text" id="i20" className="form-inp" />
+          <input
+            type="text"
+            id="i20"
+            className="form-inp"
+            defaultValue={"F-type"}
+          />
         </div>
         <div className="inp4">
           <label htmlFor="i21">Issued By</label>
-          <input type="text" id="i21" className="form-inp" />
+          <input
+            type="text"
+            id="i21"
+            className="form-inp"
+            defaultValue={"Council List"}
+          />
         </div>
         <div id="toggles">
           <ToggleSwitch label="PPE Barrier" />
@@ -243,7 +278,12 @@ function Register() {
         </div>
         <div className="inp4">
           <label htmlFor="i22">Insurance Certificate Number</label>
-          <input type="text" id="i22" className="form-inp" />
+          <input
+            type="text"
+            id="i22"
+            className="form-inp"
+            defaultValue={"F-type"}
+          />
         </div>
       </div>
 
